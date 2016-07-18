@@ -10,8 +10,6 @@ namespace Zoolandia.Classes
 
         public string height { get; set; }
 
-        public string weight { get; set; }
-
         public static void walk ()
         {
             Console.WriteLine("Animal is now walking");
