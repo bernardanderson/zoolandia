@@ -4,6 +4,6 @@ namespace Zoolandia.Classes
 {
     class GrizzlyBear : Animal
     {
-                public string aggresiveness { get; set; }
+        public string aggresiveness { get; set; }
     }
 }

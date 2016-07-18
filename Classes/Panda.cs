@@ -4,6 +4,6 @@ namespace Zoolandia.Classes
 {
     class Panda : Animal
     {
-                public string BambooType { get; set; }
+        public string BambooType { get; set; }
     }
 }

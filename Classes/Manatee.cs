@@ -4,6 +4,6 @@ namespace Zoolandia.Classes
 {
     class Manatee : Animal
     {
-                public string size { get; set; }
+        public string size { get; set; }
     }
 }
