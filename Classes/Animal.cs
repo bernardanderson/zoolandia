@@ -1,8 +1,8 @@
 using System;
 
-namespace Zoolandia 
+namespace Zoolandia.Classes
 {
-    class Animal
+    public class Animal
     {
         public string name { get; set; }
 
@@ -10,8 +10,8 @@ namespace Zoolandia
 
         public string height { get; set; }
 
-        public string weighy { get; set; }
-        
+        public string weight { get; set; }
+
         public static void walk ()
         {
             Console.WriteLine("Animal is now walking");

@@ -1,4 +1,5 @@
 ﻿using System;
+using Zoolandia.Classes;
 
 namespace Zoolandia
 {
@@ -6,7 +7,12 @@ namespace Zoolandia
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Animal generic = new Animal();
+            generic.name = "Fred";
+
+            Console.WriteLine("Animal is " + generic.name);
+
         }
     }
 }
