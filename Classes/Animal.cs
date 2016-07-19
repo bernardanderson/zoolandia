@@ -4,25 +4,28 @@ namespace Zoolandia.Classes
 {
     public class Animal
     {
+
+
+
         public string name { get; set; }
 
         public string color { get; set; }
 
         public string height { get; set; }
 
-        public static void walk ()
+        public void walk ()
         {
-            Console.WriteLine("Animal is now walking");
+            Console.WriteLine("This animal is now walking");
         }
 
-        public static void talk ()
+        public virtual void talk ()
         {
-            Console.WriteLine("Animal is now talking");
+            Console.WriteLine("This animal is now talking");
         }
 
-        public static void sleep ()
+        public void sleep ()
         {
-            Console.WriteLine("Animal is now sleeping");
+            Console.WriteLine("This animal is now sleeping");
         }
     }
 
