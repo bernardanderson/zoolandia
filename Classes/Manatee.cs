@@ -4,6 +4,10 @@ namespace Zoolandia.Classes
 {
     class Manatee : Animal
     {
+        public Manatee() {
+            this.name = "Bubba";
+        }
+
         public string size { get; set; }
 
         public override void talk ()

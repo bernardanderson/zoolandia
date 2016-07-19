@@ -4,6 +4,9 @@ namespace Zoolandia.Classes
 {
     public class Animal
     {
+
+
+
         public string name { get; set; }
 
         public string color { get; set; }

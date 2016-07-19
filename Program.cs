@@ -9,25 +9,21 @@ namespace Zoolandia
         {
 
             AilurusFulgens ailurusFulgens = new AilurusFulgens();
-            ailurusFulgens.name = "Franco";
             ailurusFulgens.height = "1ft";
             ailurusFulgens.color = "red";
             ailurusFulgens.hairStyle = "bushy";
 
             GrizzlyBear grizzlyBear = new GrizzlyBear();
-            grizzlyBear.name = "Ben";
             grizzlyBear.height = "9ft";
             grizzlyBear.color = "brown";
             grizzlyBear.aggresiveness = "very aggressive";
 
             Panda panda = new Panda();
-            panda.name = "Ling Ling";
             panda.height = "5ft";
             panda.color = "black and white";
             panda.BambooType = "green and tasty";        
 
             Manatee manatee = new Manatee();
-            manatee.name = "Bubba";
             manatee.height = "4ft";
             manatee.color = "red";
             manatee.size = "600lbs";        

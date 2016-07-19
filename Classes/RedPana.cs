@@ -4,6 +4,10 @@ namespace Zoolandia.Classes
 {
     class AilurusFulgens : Animal
     {
+
+        public AilurusFulgens() {
+            this.name = "Franco";
+        }
         public string hairStyle { get; set; }
 
         public override void talk ()

@@ -4,6 +4,9 @@ namespace Zoolandia.Classes
 {
     class GrizzlyBear : Animal
     {
+        public GrizzlyBear() {
+            this.name = "Ben";
+        }
         public string aggresiveness { get; set; }
 
         public override void talk ()
