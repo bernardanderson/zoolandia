@@ -7,7 +7,24 @@ namespace Zoolandia.Classes
         public GrizzlyBear() {
             this.name = "Ben";
         }
-        public string aggresiveness { get; set; }
+
+        public GrizzlyBear(string sentName)
+        {
+            this.name = sentName;
+        }
+
+        public GrizzlyBear(int sentAge)
+        {
+            this.age = sentAge;
+        }
+
+        public GrizzlyBear(string sentName, int sentAge)
+        {
+            this.name = sentName;
+            this.age = sentAge;
+        }
+
+        public int age { get; set; }
 
         public override void talk ()
         {
