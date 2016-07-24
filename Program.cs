@@ -34,13 +34,13 @@ namespace Zoolandia
             panda.talk();
             Console.WriteLine("***\n");
 
-            Manatee manatee = new Manatee();
-            manatee.height = "4ft";
-            manatee.color = "red";
-            manatee.size = "600lbs";        
+            WildYak wildYak = new WildYak();
+            wildYak.height = "4ft";
+            wildYak.color = "red";
+            wildYak.size = "600lbs";        
 
-            Console.WriteLine($"You have a {manatee.color} manatee named {manatee.name} who is {manatee.height} tall. It weighs {manatee.size}.");
-            manatee.talk();
+            Console.WriteLine($"You have a {wildYak.color} manatee named {wildYak.name} who is {wildYak.height} tall. It weighs {wildYak.size}.");
+            wildYak.talk();
             Console.WriteLine("***\n");
 
             GrizzlyBear overloadedGrizzly1 = new GrizzlyBear("Fred");
