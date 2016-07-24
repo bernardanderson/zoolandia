@@ -1,11 +1,11 @@
 using System;
 
-namespace Zoolandia.Classes
+namespace Zoolandia
 {
-    class GrizzlyBear : Animal
+    class GrizzlyBear : Ursus
     {
         public GrizzlyBear() {
-            this.name = "Ben";
+            this.name = "Generic Grizzly";
         }
 
         public GrizzlyBear(string sentName)
@@ -24,12 +24,15 @@ namespace Zoolandia.Classes
             this.age = sentAge;
         }
 
-        public int age { get; set; }
-
         public override void talk ()
         {
             base.talk();
-            Console.WriteLine("This grizzly says gerrr... gerrr!");
+            Console.WriteLine("I'm a grizzly bear!  Gerrr... Gerrr!");
         }
+
+        public override string tailLength() {
+            return "5 inches";
+        }
+
     }
 }

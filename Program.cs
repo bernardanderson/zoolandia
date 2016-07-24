@@ -1,5 +1,4 @@
 ﻿using System;
-using Zoolandia.Classes;
 
 namespace Zoolandia
 {
@@ -26,22 +25,22 @@ namespace Zoolandia
             grizzlyBear.talk();
             Console.WriteLine("***\n");
 
-            Panda panda = new Panda();
-            panda.height = "5ft";
-            panda.color = "black and white";
-            panda.BambooType = "green and tasty";        
+            GiantPanda giantPanda = new GiantPanda();
+            giantPanda.height = "5ft";
+            giantPanda.color = "black and white";
+            giantPanda.BambooType = "green and tasty";        
 
-            Console.WriteLine($"You have a {panda.color} panda bear named {panda.name} who is {panda.height} tall. It likes to eat {panda.BambooType} bamboo." );
-            panda.talk();
+            Console.WriteLine($"You have a {giantPanda.color} panda bear named {giantPanda.name} who is {giantPanda.height} tall. It likes to eat {giantPanda.BambooType} bamboo." );
+            giantPanda.talk();
             Console.WriteLine("***\n");
 
-            Manatee manatee = new Manatee();
-            manatee.height = "4ft";
-            manatee.color = "red";
-            manatee.size = "600lbs";        
+            WildYak wildYak = new WildYak();
+            wildYak.height = "4ft";
+            wildYak.color = "red";
+            wildYak.size = "600lbs";        
 
-            Console.WriteLine($"You have a {manatee.color} manatee named {manatee.name} who is {manatee.height} tall. It weighs {manatee.size}.");
-            manatee.talk();
+            Console.WriteLine($"You have a {wildYak.color} manatee named {wildYak.name} who is {wildYak.height} tall. It weighs {wildYak.size}.");
+            wildYak.talk();
             Console.WriteLine("***\n");
 
             GrizzlyBear overloadedGrizzly1 = new GrizzlyBear("Fred");

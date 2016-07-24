@@ -1,15 +1,17 @@
 using System;
 
-namespace Zoolandia.Classes
+namespace Zoolandia
 {
     public class Animal
     {
 
-        public string name { get; set; }
+        public virtual string name { get; set; } = "Generic Animal";
 
         public string color { get; set; }
 
         public string height { get; set; }
+
+        public int age { get; set; }
 
         public virtual void walk ()
         {
