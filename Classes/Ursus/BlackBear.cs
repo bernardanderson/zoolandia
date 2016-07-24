@@ -2,23 +2,23 @@ using System;
 
 namespace Zoolandia
 {
-    class GrizzlyBear : Ursus
+    class BlackBear : Ursus
     {
-        public GrizzlyBear() {
-            this.name = "Generic Grizzly";
+        public BlackBear() {
+            this.name = "Generic Black Bear";
         }
 
-        public GrizzlyBear(string sentName)
+        public BlackBear(string sentName)
         {
             this.name = sentName;
         }
 
-        public GrizzlyBear(int sentAge)
+        public BlackBear(int sentAge)
         {
             this.age = sentAge;
         }
 
-        public GrizzlyBear(string sentName, int sentAge)
+        public BlackBear(string sentName, int sentAge)
         {
             this.name = sentName;
             this.age = sentAge;
@@ -27,11 +27,11 @@ namespace Zoolandia
         public override void talk ()
         {
             base.talk();
-            Console.WriteLine("This grizzly says gerrr... gerrr!");
+            Console.WriteLine("I'm a Black Bear!  Roar... ROAR!");
         }
 
         public override string tailLength() {
-            return "5 inches";
+            return "3 inches";
         }
 
     }
