@@ -1,6 +1,6 @@
 using System;
 
-namespace Zoolandia.Classes
+namespace Zoolandia
 {
     class Manatee : Animal
     {

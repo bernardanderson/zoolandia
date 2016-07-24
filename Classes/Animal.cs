@@ -1,6 +1,6 @@
 using System;
 
-namespace Zoolandia.Classes
+namespace Zoolandia
 {
     public class Animal
     {
@@ -10,6 +10,8 @@ namespace Zoolandia.Classes
         public string color { get; set; }
 
         public string height { get; set; }
+
+        public int age { get; set; }
 
         public virtual void walk ()
         {
