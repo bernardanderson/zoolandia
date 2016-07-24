@@ -31,5 +31,8 @@ namespace Zoolandia
             base.talk();
             Console.WriteLine("This Banteng says 7... 8... 9... Banteng!");
         }
+        public override string hasHorns() {
+            return "Has Horns";
+        }
     }
 }

@@ -31,5 +31,10 @@ namespace Zoolandia
             base.talk();
             Console.WriteLine("This Zebu says boo... boo... Ze-boo!");
         }
+
+        public override string hasHorns() {
+            return "Has Horns";
+        }
+
     }
 }

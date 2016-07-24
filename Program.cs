@@ -25,13 +25,13 @@ namespace Zoolandia
             grizzlyBear.talk();
             Console.WriteLine("***\n");
 
-            Panda panda = new Panda();
-            panda.height = "5ft";
-            panda.color = "black and white";
-            panda.BambooType = "green and tasty";        
+            GiantPanda giantPanda = new GiantPanda();
+            giantPanda.height = "5ft";
+            giantPanda.color = "black and white";
+            giantPanda.BambooType = "green and tasty";        
 
-            Console.WriteLine($"You have a {panda.color} panda bear named {panda.name} who is {panda.height} tall. It likes to eat {panda.BambooType} bamboo." );
-            panda.talk();
+            Console.WriteLine($"You have a {giantPanda.color} panda bear named {giantPanda.name} who is {giantPanda.height} tall. It likes to eat {giantPanda.BambooType} bamboo." );
+            giantPanda.talk();
             Console.WriteLine("***\n");
 
             WildYak wildYak = new WildYak();

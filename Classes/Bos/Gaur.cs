@@ -31,5 +31,9 @@ namespace Zoolandia
             base.talk();
             Console.WriteLine("This Gaur says Ga-rawr!");
         }
+
+        public override string hasHorns() {
+            return "Has Horns";
+        }
     }
 }

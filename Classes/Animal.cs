@@ -5,7 +5,7 @@ namespace Zoolandia
     public class Animal
     {
 
-        public string name { get; set; }
+        public virtual string name { get; set; } = "Generic Animal";
 
         public string color { get; set; }
 

@@ -31,5 +31,9 @@ namespace Zoolandia
             base.talk();
             Console.WriteLine("This Wild Yak says Yakity Yak, don't talk back!");
         }
+
+        public override string hasHorns() {
+            return "Has Horns";
+        }
     }
 }

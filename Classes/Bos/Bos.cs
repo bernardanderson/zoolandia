@@ -8,7 +8,7 @@ namespace Zoolandia
 
         public string genus = "Bos";
 
-        public virtual string hornNumber() {
+        public virtual string hasHorns() {
             return "Hornless";
         }
     }
